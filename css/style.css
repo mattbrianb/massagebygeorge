@@ -904,5 +904,38 @@ i.text-primary {
     text-decoration: underline;
 }
 
+/* =========================
+   MOBILE BUTTON SPACING FIX
+   ========================= */
+
+@media (max-width: 576px) {
+
+    /* Generic stacked buttons */
+    .btn {
+        margin-bottom: 12px;
+    }
+
+    /* Prevent last button having extra space */
+    .btn:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Hero buttons (home page carousel) */
+    .carousel-caption .btn {
+        display: block;
+        width: 100%;
+        max-width: 260px;
+        margin: 10px auto;
+    }
+
+    /* About page buttons */
+    .container .btn {
+        display: block;
+        width: 100%;
+        max-width: 260px;
+        margin: 10px auto;
+    }
+}
+
 
 
