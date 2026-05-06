@@ -876,3 +876,13 @@ i.text-primary {
     border-color: #a9c8f5 !important;
     color: #000000 !important;
 }
+
+/* =========================
+   HEADER LOGO FONT
+   ========================= */
+
+.navbar-brand h1 {
+    font-family: "Playfair Display", serif !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
