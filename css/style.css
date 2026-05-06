@@ -100,6 +100,29 @@ i.text-primary {
     color: #bed7ff !important;
 }
 
+
+/* =========================
+   HEADER TEXT CONTRAST FIX
+   ========================= */
+
+/* Logo text */
+.navbar-brand h1 {
+    color: #212529 !important; /* dark, readable */
+}
+
+/* Navbar links (default state) */
+.navbar .nav-link {
+    color: #212529 !important; /* dark text */
+}
+
+/* Hover + active state */
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #bed7ff !important; /* your blue */
+}
+
+
+
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
