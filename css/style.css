@@ -68,7 +68,67 @@
     color: #bed7ff !important;
 }
 
+/* =========================
+   MAIN HEADER (NAV BAR)
+   ========================= */
 
+/* Header background */
+.container-fluid.bg-light.sticky-top {
+    background-color: #212529 !important; /* same as footer */
+}
+
+/* Logo text */
+.navbar-brand h1 {
+    color: #ffffff !important;
+}
+
+/* Navigation links */
+.navbar .nav-link {
+    color: #ffffff !important;
+}
+
+/* Active & hover links */
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #bed7ff !important;
+}
+
+/* WhatsApp header button */
+.navbar .btn {
+    background-color: #bed7ff !important;
+    color: #000000 !important;
+}
+
+
+/* =========================
+   HERO TEXT COLOUR FIX
+   ========================= */
+
+/* Override pink in hero caption */
+.carousel-caption .text-primary {
+    color: #bed7ff !important;
+}
+
+/* =========================
+   BUTTON & ICON CONSISTENCY
+   ========================= */
+
+/* Outline buttons */
+.btn-outline-primary {
+    color: #bed7ff !important;
+    border-color: #bed7ff !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #bed7ff !important;
+    color: #000000 !important;
+}
+
+/* Icons that inherit primary */
+.text-primary,
+i.text-primary {
+    color: #bed7ff !important;
+}
 
 /*** Spinner Start ***/
 #spinner {
