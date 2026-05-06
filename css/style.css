@@ -1,3 +1,13 @@
+/* =========================
+   GLOBAL THEME OVERRIDES
+   ========================= */
+
+:root {
+    --bs-primary: #bed7ff;
+    --bs-secondary: #9fbce9; /* slightly darker for hover contrast */
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
 
 /*** Spinner Start ***/
 #spinner {
@@ -398,10 +408,13 @@
 
 /*** Counter Start ***/
 .counter-section .counter-item .counter-content {
-    position: relative;
-    margin-bottom: 60px;
-    background-image: linear-gradient(rgba(252, 152, 195, 0.3), rgba(255, 255, 255, 0.3), rgba(136, 76, 210, 0.3));
+    background-image: linear-gradient(
+        rgba(190, 215, 255, 0.35),
+        rgba(255, 255, 255, 0.35),
+        rgba(159, 188, 233, 0.35)
+    );
     border-radius: 10px;
+}
     z-index: 9;
 }
 
