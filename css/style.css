@@ -1010,3 +1010,25 @@ i.text-primary {
     }
 }
 
+/* =========================
+   HOME HERO BUTTON CENTER FIX (MOBILE)
+   ========================= */
+
+@media (max-width: 576px) {
+
+    /* Disable flex centering for hero buttons */
+    .carousel-caption .d-flex {
+        display: block !important;
+        text-align: center;
+    }
+
+    /* Force true center alignment */
+    .carousel-caption .btn {
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 12px;
+        width: 100%;
+        max-width: 260px;
+    }
+}
