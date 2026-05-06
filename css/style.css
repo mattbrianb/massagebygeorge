@@ -903,3 +903,21 @@ i.text-primary {
     color: #a9c8f5 !important;
     text-decoration: underline;
 }
+
+
+/* =========================
+   CONTACT PAGE LINK FIX
+   ========================= */
+
+/* Contact page links (WhatsApp & Instagram) */
+.contact a {
+    color: #bed7ff !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Hover state */
+.contact a:hover {
+    color: #a9c8f5 !important;
+    text-decoration: underline;
+}
