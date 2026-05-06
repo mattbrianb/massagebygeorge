@@ -127,6 +127,33 @@ i.text-primary {
 }
 
 
+/* =========================
+   HEADER NAV VISIBILITY FIX
+   ========================= */
+
+/* Default navbar links – FORCE DARK */
+.container-fluid.bg-light .navbar .nav-link {
+    color: #212529 !important; /* dark, readable */
+    font-weight: 600;
+}
+
+/* Hover state */
+.container-fluid.bg-light .navbar .nav-link:hover {
+    color: #bed7ff !important; /* soft blue */
+}
+
+/* Active tab */
+.container-fluid.bg-light .navbar .nav-link.active {
+    color: #212529 !important;
+    border-bottom: 2px solid #bed7ff; /* optional visual cue */
+}
+
+/* Ensure logo stays dark */
+.container-fluid.bg-light .navbar-brand h1 {
+    color: #212529 !important;
+}
+``
+
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
