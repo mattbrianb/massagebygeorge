@@ -8,133 +8,131 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
+    <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
-    <!-- Bootstrap & Template Styles -->
+    <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- Navbar -->
-<div class="container-fluid sticky-top px-0">
-
-    <!-- Topbar -->
-    <div class="container-fluid topbar d-none d-lg-block">
-        <div class="container px-0">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <div class="d-flex flex-wrap">
-                        <span class="me-4 text-light">
-                            <i class="fas fa-map-marker-alt text-primary me-2"></i>
-                            Gillitts, Durban
-                        </span>
-                        <a href="https://wa.me/27794808977" class="text-light">
-                            <i class="fas fa-phone-alt text-primary me-2"></i>
-                            079 480 8977
-                        </a>
-                    </div>
+<!-- Topbar -->
+<div class="container-fluid topbar d-none d-lg-block">
+    <div class="container px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="d-flex flex-wrap">
+                    <span class="me-4 text-light">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+                        Gillitts, Durban
+                    </span>
+                    <a href="https://wa.me/27794808977" class="text-light">
+                        <i class="fas fa-phone-alt me-2"></i>
+                        079 480 8977
+                    </a>
                 </div>
-                <div class="col-lg-4">
-                    <div class="d-flex justify-content-end">
-                        <a href="https://www.instagram.com/massage_by_george" class="btn-square border rounded-circle nav-fill">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
+            </div>
+            <div class="col-lg-4 text-end">
+                <a href="https://www.instagram.com/massage_by_george" class="btn-square border rounded-circle nav-fill">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Main Navbar -->
-    <div class="container-fluid bg-light">
-        <div class="container px-0">
-            <nav class="navbar navbar-light navbar-expand-xl">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="text-primary display-4">Massage by George</h1>
+<!-- Navbar -->
+<div class="container-fluid bg-light sticky-top px-0">
+    <div class="container px-0">
+        <nav class="navbar navbar-light navbar-expand-xl">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="display-4">Massage by George</h1>
+            </a>
+
+            <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse py-3" id="navbarCollapse">
+                <div class="navbar-nav mx-auto border-top">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                </div>
+
+                <a href="https://wa.me/27794808977" class="btn btn-primary rounded-pill py-3 px-4">
+                    Book via WhatsApp
                 </a>
-
-                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars text-primary"></span>
-                </button>
-
-                <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto border-top">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                        <a href="https://wa.me/27794808977" class="btn btn-primary rounded-pill py-3 px-4">
-                            Book via WhatsApp
-                        </a>
-                    </div>
-
-            <div class="carousel-item active">
-                <img src="img/george.jpg" class="img-fluid" alt="">
-                <div class="carousel-caption">
-                </div>
-                    
-                    
-                </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </div>
 </div>
-<!-- Navbar End -->
 
 <!-- Page Header -->
 <div class="container-fluid bg-breadcrumb py-5">
     <div class="container text-center py-5">
-        <h3 class="text-white display-3 mb-4">About Massage by George</h3>
+        <h3 class="text-white display-3">About Massage by George</h3>
     </div>
 </div>
 
-<!-- About Section -->
-<div class="container-fluid py-5">
-    <div class="container py-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
+<!-- About Content -->
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
 
-                <h1 class="display-5 mb-4">Professional Massage Therapy in Gillitts</h1>
+            <h2 class="mb-4">Professional Massage Therapy in Gillitts</h2>
 
-                <p class="mb-4">
-                My name is Georgia Acton, and I am 27 years old.
-                In 2019, I graduated from Isa Carstens Academy in Stellenbosch with an international diploma in somatology.
-                </p>
+            <p>
+                My name is Georgia Acton, and I am 27 years old. In 2019, I graduated from Isa
+                Carstens Academy in Stellenbosch with an international diploma in somatology.
+            </p>
 
-                <p class="mb-4">
-                In 2021, I set out on a global adventure, spending the past four and a half years working on five of Royal Caribbean’s largest cruise liners.
-                </p>
+            <p>
+                In 2021, I set out on a global adventure, spending the past four and a half years
+                working on five of Royal Caribbean’s largest cruise liners.
+            </p>
 
-                <p class="mb-4">
-                During that time, I worked with OneSpaWorld, the global leaders in the health and wellness industry, both on land and at sea. This invaluable journey enabled me to connect with thousands of people, refining my expertise in what I love most–working with the body.
-                </p>
+            <p>
+                During that time, I worked with OneSpaWorld, the global leaders in the health and
+                wellness industry, both on land and at sea. This invaluable journey enabled me
+                to connect with thousands of people, refining my expertise in what I love most —
+                working with the body.
+            </p>
 
-                <p class="mb-4">
-                Now that I have returned home, I couldn’t be more excited to invite you into the calming space I have created. Whether you are seeking pure relaxation or relief from long‑held pain, I am here to help.
-                </p>
+            <p>
+                Now that I have returned home, I couldn’t be more excited to invite you into the
+                calming space I have created. Whether you are seeking pure relaxation or relief
+                from long‑held pain, I am here to help.
+            </p>
 
-                <p class="mb-4">
+            <p>
                 Without further ado, welcome to the place I have designed just for you.
-                </p>
-                
-                <a href="service.html" class="btn btn-primary rounded-pill py-3 px-5 me-3">
-                    View Services
-                </a>
+            </p>
 
-                <a href="https://wa.me/27794808977" class="btn btn-outline-primary rounded-pill py-3 px-5">
-                    Book via WhatsApp
-                </a>
+        </div>
+    </div>
 
-            </div>
+    <!-- Instagram Image -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-lg-4 col-md-6 text-center">
+            <img src="img/george.jpg" class="img-fluid rounded shadow" alt="Massage by George">
+        </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="row justify-content-center mt-4">
+        <div class="col-auto">
+            <a href="service.html" class="btn btn-primary rounded-pill py-3 px-5 me-3">
+                View Services
+            </a>
+            <a href="https://wa.me/27794808977" class="btn btn-outline-primary rounded-pill py-3 px-5">
+                Book via WhatsApp
+            </a>
         </div>
     </div>
 </div>
@@ -142,9 +140,7 @@
 <!-- Footer -->
 <div class="container-fluid footer py-4">
     <div class="container text-center">
-        <p class="text-white mb-2">
-            Massage by George · Gillitts, Durban
-        </p>
+        <p class="text-white mb-2">Massage by George · Gillitts, Durban</p>
         <a href="https://www.instagram.com/massage_by_george" class="me-3">
             <i class="fab fa-instagram"></i>
         </a>
@@ -154,7 +150,7 @@
     </div>
 </div>
 
-<!-- Scripts -->
+<!-- JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
