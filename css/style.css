@@ -971,3 +971,42 @@ i.text-primary {
     }
 }
 
+/* =========================
+   HERO HEADING VISIBILITY
+   ========================= */
+
+/* ONLY the "Professional Massage Therapy" line */
+.carousel-caption h4.text-primary {
+    color: #ffffff !important;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+}
+
+/* Ensure hero paragraph text stays dark */
+.carousel-caption p {
+    color: #212529 !important;
+    text-shadow: none;
+}
+
+
+/* =========================
+   HOME HERO BUTTON MOBILE FIX
+   ========================= */
+
+@media (max-width: 576px) {
+
+    /* Override the flex wrapper */
+    .carousel-caption .d-flex {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    /* Clean, consistent button stack */
+    .carousel-caption .btn {
+        width: 100%;
+        max-width: 260px;
+        margin: 10px 0;
+        display: block;
+        text-align: center;
+    }
+}
+
