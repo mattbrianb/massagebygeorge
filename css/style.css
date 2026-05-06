@@ -121,6 +121,10 @@ i.text-primary {
     color: #bed7ff !important; /* your blue */
 }
 
+/* Header icons */
+.navbar i {
+    color: #212529 !important;
+}
 
 
 /*** Spinner Start ***/
