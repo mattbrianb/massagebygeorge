@@ -831,3 +831,48 @@ i.text-primary {
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+
+/* =========================
+   FOOTER ICON FIX
+   ========================= */
+
+/* Footer icons force to theme blue */
+.footer i,
+.footer .text-primary,
+.footer a i {
+    color: #bed7ff !important;
+}
+
+/* Footer icon hover (optional) */
+.footer a:hover i {
+    color: #ffffff !important;
+}
+
+/* =========================
+   BUTTON CONSISTENCY FIX
+   ========================= */
+
+/* Light buttons (used on About page) */
+.btn-light,
+.btn-light-outline-0 {
+    background-color: #bed7ff !important;
+    border-color: #bed7ff !important;
+    color: #000000 !important;
+}
+
+/* Outline primary buttons */
+.btn-outline-primary {
+    background-color: #bed7ff !important;
+    border-color: #bed7ff !important;
+    color: #000000 !important;
+}
+
+/* Button hover state */
+.btn-light:hover,
+.btn-outline-primary:hover,
+.btn-primary:hover {
+    background-color: #a9c8f5 !important;
+    border-color: #a9c8f5 !important;
+    color: #000000 !important;
+}
