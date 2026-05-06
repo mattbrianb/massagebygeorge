@@ -886,3 +886,20 @@ i.text-primary {
     font-weight: 600;
     letter-spacing: 0.5px;
 }
+
+/* =========================
+   CONTACT PAGE LINK FIX
+   ========================= */
+
+/* Contact page links (WhatsApp & Instagram) */
+.contact a {
+    color: #bed7ff !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Hover state */
+.contact a:hover {
+    color: #a9c8f5 !important;
+    text-decoration: underline;
+}
